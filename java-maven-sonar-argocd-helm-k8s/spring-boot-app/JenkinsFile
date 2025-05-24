@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/Varshith1715/Jenkins-Zero-To-Hero'
+        git branch: 'main', url: 'https://github.com/Varshith1715/End-to-end-CI-CD-implementation'
         sh 'echo Repository checked out'
       }
     }
